@@ -1,0 +1,10 @@
+Q. Difference between NPM vs NPX
+Definition: NPM is a package manager used to install, delete, and update Javascript packages on your machine. NPX is a package executer, and it is used to execute javascript packages directly, without installing them.
+
+fileStructure : 
+
+package.json : contains information about our project & also about all the dependencies install in our application
+
+folders : 
+node_modules : contains all packages and libraries we install
+public : contains bunch of static files
