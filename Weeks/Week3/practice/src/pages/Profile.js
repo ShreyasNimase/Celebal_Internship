@@ -4,12 +4,12 @@ import { useContext } from "react";
 import { AppContext } from "../App";
 
 export const Profile = () => {
-  const { username, setUsername } = useContext(AppContext);
+  const { username } = useContext(AppContext);
 
   return (
     <div>
-      <h1>THIS IS Profile PAGE, user is : {username} </h1>
-      <ChangeProfile setUsername={setUsername} />
+      <h1>THIS IS PROFILE PAGE, user is : {username} </h1>
+      <ChangeProfile />
     </div>
   );
 };
